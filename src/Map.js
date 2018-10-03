@@ -3,7 +3,7 @@ import React, { Component } from 'react'
 
 import mapboxgl from 'mapbox-gl'
 
-const MAPBOX_TOKEN = 'pk.eyJ1IjoidXJiYW4tbWFya2V0cyIsImEiOiJjam1yY21qMHEwcDVxM3FsODF4OXYxbWF5In0.h-s3N1ujvj3VtO_2jrrSPw'
+const MAPBOX_TOKEN = 'REPLACE_WITH_TOKEN'
 
 class MapWrapper extends Component<
   {
