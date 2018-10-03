@@ -1,17 +1,10 @@
-//@flow
 import React, { Component } from 'react'
 
 import mapboxgl from 'mapbox-gl'
 
 const MAPBOX_TOKEN = 'REPLACE_WITH_TOKEN'
 
-class MapWrapper extends Component<
-  {
-    coordinates: Array<number>,
-    children?: any,
-  },
-  {},
-> {
+class MapWrapper extends Component {
   componentDidMount() {
     mapboxgl.accessToken = MAPBOX_TOKEN
     const map = new mapboxgl.Map({
